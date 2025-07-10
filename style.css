@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9fa917d;
+    color: #e02e2e;
+}
+.container {
+    max-width: 400px;
+    margin: 250px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration:dotted underline;
+}
+ 
+#countLable {
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: yellowgreen;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#incrementButton, #decrementButton{
+    background-color: #4CAF50; /* Green */
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resetButton {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#incrementButton:hover, #decrementButton:hover {
+    background-color: #459aa0; /* Darker green */
+}
+#resetButton:hover {
+    background-color: #b3d90a; /* Darker red */
+}
